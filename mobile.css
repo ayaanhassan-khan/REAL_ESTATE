@@ -1,0 +1,43 @@
+@media (max-width: 737px) {
+    #navbar .links {
+        justify-content: right;
+    }
+    .logo h1, .logo i {
+        font-size: 20px;
+    }
+    .links ul {
+        font-size: 13px;
+        margin: 10px;
+    }
+}
+@media (max-width: 900px) {
+    .sub-h1 {
+        position: relative;
+        left: 10px;
+        top: 12px;
+    }
+    .maps, .image2{
+        display: none;
+    }
+    .info .sub-h {
+        float: right;
+    }
+    .info-content {
+        margin-top: 28px;
+    }
+}
+@media (min-width: 340px) and (max-width: 799px) {
+    .sub-h1 {
+        position: relative;
+        left: 15px;
+        top: 53px;
+        padding-bottom: 10px;
+    }
+    .info .sub-h {
+        float: right;
+        padding-top: 20px;
+    }
+    .info-content {
+        margin-top: 53px;
+    }
+}
